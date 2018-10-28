@@ -20,5 +20,5 @@ fisher add yoshiori/fish-peco_select_ghq_repository oh-my-fish/plugin-balias edc
 install theme.
 
 ```sh
-fisher install omf/theme-bobthefish
+fisher add oh-my-fish/theme-bobthefish
 ```
