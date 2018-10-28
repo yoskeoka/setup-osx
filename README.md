@@ -81,8 +81,8 @@ mkdir ~/.iterm2/
 ## git user
 
 ```sh
-git config --global user.name=yoskeoka
-git config --global user.email=y.okamoto@gemcook.com
+git config --global user.name yoskeoka
+git config --global user.email y.okamoto@gemcook.com
 ```
 
 ## エディタ
