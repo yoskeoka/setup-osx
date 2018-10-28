@@ -5,7 +5,9 @@ brew install fish
 ```
 
 ```sh
-sudo echo '/usr/local/bin/fish' >> /etc/shells
+sudo vim /etc/shells
+# 最終行に以下を追加
+# /usr/local/bin/fish
 ```
 
 ```sh
