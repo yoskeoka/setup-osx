@@ -21,10 +21,15 @@ macOS のセットアップ手順
 curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
 ```
 
+```sh
+gofish init
+```
+
 ## python
 
 ```sh
-sudo easy_install pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py --user
 ```
 
 ## ruby

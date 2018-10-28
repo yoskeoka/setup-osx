@@ -23,7 +23,7 @@ set -x  MANPATH /usr/local/opt/coreutils/libexec/gnuman $MANPATH
 # gawkを標準に
 alias awk='gawk'
 alias factor='gfactor'
-alias aws='python /Users/yoske/Library/Python/2.7/lib/python/site-packages/awscli'
+alias aws="python "$USER_BASE_PATH"/lib/python/site-packages/awscli"
 alias code.='code .'
 
 # coloring ls command
