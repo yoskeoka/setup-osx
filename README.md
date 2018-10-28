@@ -38,6 +38,16 @@ python get-pip.py --user
 brew install rbenv
 ```
 
+## go
+
+```sh
+brew install go dep
+```
+
+## node
+
+[Node セットアップ手順](./SETUP_NODE.md)
+
 ## フォント
 
 ### source-han-code-jp
@@ -100,7 +110,7 @@ CMD+SHIFT+P でコマンドパレットを開く
 ## command line tools
 
 ```sh
-brew install jid jo jq colordiff ghq
+brew install jid jo jq colordiff ghq coreutils
 ```
 
 ```sh
@@ -110,10 +120,6 @@ git config --global ghq.root '~/src'
 ```sh
 pip install awscli --user
 ```
-
-## Go言語
-
-[Go言語セットアップ手順](./SETUP_GOLANG.md)
 
 ## Docker & Kubernetes
 

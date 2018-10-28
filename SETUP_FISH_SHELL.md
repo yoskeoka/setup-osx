@@ -22,3 +22,8 @@ install theme.
 ```sh
 fisher add oh-my-fish/theme-bobthefish
 ```
+
+```sh
+vim ~/.config/fish/config.fish
+# config.fish の内容を貼り付ける
+```

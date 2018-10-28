@@ -60,10 +60,10 @@ end
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
-[ -f ~/.config/yarn/global/node_modules/tabtab/.completions/serverless.fish ]; and . ~/.config/yarn/global/node_modules/tabtab/.completions/serverless.fish
+[ -f ~/.config/yarn/global/node_modules/tabtab/.completions/serverless.fish ]; and source ~/.config/yarn/global/node_modules/tabtab/.completions/serverless.fish
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
-[ -f ~/.config/yarn/global/node_modules/tabtab/.completions/sls.fish ]; and . ~/.config/yarn/global/node_modules/tabtab/.completions/sls.fish
+[ -f ~/.config/yarn/global/node_modules/tabtab/.completions/sls.fish ]; and source ~/.config/yarn/global/node_modules/tabtab/.completions/sls.fish
 
 test -x (which aws_completer); and complete --command aws --no-files --arguments '(begin; set --local --export COMP_SHELL fish; set --local --export COMP_LINE (commandline); aws_completer | sed \'s/ $//\'; end)'
 
