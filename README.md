@@ -42,6 +42,7 @@ brew install rbenv
 
 ```sh
 brew install go dep
+mkdir ~/src ~/bin
 ```
 
 ## node
