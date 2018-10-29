@@ -7,6 +7,17 @@ macOS のセットアップ手順
 * Google Chrome
 * FireFox
 
+## XCode
+
+App Store から XCodeを入手する。
+
+macOSをバージョンアップした場合、
+XCode Command Line Tools の再インストールが必要となるので、以下でインストールする。
+
+```sh
+xcode-select --install
+```
+
 ## パッケージマネージャ
 
 ### brew
@@ -104,7 +115,7 @@ git config --global user.email y.okamoto@gemcook.com
 
 ダウンロードして、zip解凍し `Visual Studio Code.app` をアプリケーションに追加
 
-CMD+SHIFT+P でコマンドパレットを開く
+⌘+SHIFT+P でコマンドパレットを開く
 
 `Shell Command: Install 'code' command in PATH`
 
