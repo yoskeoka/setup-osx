@@ -27,3 +27,16 @@ fisher add oh-my-fish/theme-bobthefish
 vim ~/.config/fish/config.fish
 # config.fish の内容を貼り付ける
 ```
+
+```sh
+mkdir ~/.peco
+vim ~/.peco/config.json
+# 下記のJSONを貼り付ける
+```
+
+```json
+{
+    "InitialFilter": "Fuzzy"
+}
+
+```
