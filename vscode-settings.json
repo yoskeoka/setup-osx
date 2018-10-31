@@ -1,0 +1,244 @@
+{
+    // editor settings
+    "editor.fontFamily": "SourceHanCodeJP-Regular,'源ノ角ゴシック Code JP R', Menlo, Monaco, 'Courier New', monospace",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.renderWhitespace": "boundary",
+    "editor.scrollBeyondLastLine": false,
+    // theme
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    // VSCode general
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "search.location": "panel",
+    "debug.toolBarLocation": "floating",
+    // git settings
+    "git.autofetch": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "chorded",
+    // terminal
+    "terminal.external.osxExec": "iTerm",
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "terminal.integrated.env.osx": {
+    },
+    "terminal.integrated.fontFamily": "'Fira Mono for Powerline'",
+    "files.associations": {
+        "*.jsx": "javascript"
+    },
+
+    // Golang
+    // useLanguageServer は結構重い
+    "go.useLanguageServer": false,
+    "markdown.preview.fontSize": 12,
+
+    // ruby
+    "ruby.lint": {
+        "reek": true,
+        "rubocop": true,
+        "ruby": false, //Runs ruby -wc
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": true
+    },
+
+    // flow 
+    "flow.pathToFlow": "flow",
+    "flow.useNPMPackagedFlow": true,
+    "flow.runOnEdit": false,
+
+    // javascript
+    "javascript.validate.enable": false,
+    "[javascript]": {
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.formatOnSave": false,
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    // prettier
+    "prettier.singleQuote": true,
+    "prettier.bracketSpacing": false,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 80,
+    "prettier.jsxBracketSameLine": false,
+
+
+    "cSpell.language": "en",
+    "cSpell.enabledLanguageIds": [
+        "debug",
+        "diagram",
+        "env",
+        "go",
+        "html",
+        "http",
+        "json",
+        "markdown",
+        "plaintext",
+        "text",
+        "yml"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.diagnosticLevel": "Information",
+    "cSpell.includeRegExpList": [
+        // 半角文字から始まる場合だけ対象
+        // ただしキーなど長いものは無視
+        "[\\x00-\\x7F]+"
+    ],
+    "cSpell.ignoreRegExpList": [
+        // 全角文字を無視
+        "[^\\x00-\\x7F]+"
+    ],
+    "cSpell.words": [
+        "Authed",
+        "CORS",
+        "Cognito",
+        "Debugf",
+        "Debugln",
+        "Ikejime",
+        "Infof",
+        "Warnf",
+        "alias",
+        "cond",
+        "gemcook",
+        "gobuffalo",
+        "godotenv",
+        "gonic",
+        "joho",
+        "logrus",
+        "lusca",
+        "ngwords",
+        "nocache",
+        "osascript",
+        "packr",
+        "repo",
+        "sjis",
+        "testdata",
+        "upsert",
+        "xorm",
+        "JWKURL",
+        "Warningf",
+        "senkyorobot",
+        "strconv",
+        "struct",
+        "GOPATH",
+        "Getenv",
+        "Inno",
+        "Passwd",
+        "Serverless",
+        "cloudformation",
+        "cognitoidentityprovider",
+        "datetime",
+        "dgrijalva",
+        "gognito",
+        "jwks",
+        "mkdir",
+        "Errorln",
+        "GOBIN",
+        "NISHIO",
+        "fenrir",
+        "fontelier",
+        "gcoka",
+        "gitignore",
+        "gopkgs",
+        "ibus",
+        "jinzhu",
+        "linuxbrew",
+        "moby",
+        "morisawa",
+        "pluma",
+        "println",
+        "sbin",
+        "stretchr",
+        "toml",
+        "varchar",
+        "Avenir",
+        "RDBMS",
+        "enduml",
+        "erres",
+        "startuml"
+    ],
+
+    // setting sync
+    "gitlens.historyExplorer.enabled": true,
+    "sync.gist": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceDownload": false,
+
+
+    // yaml schema
+    "yaml.schemas": {
+        "https://d33vqc0rt9ld30.cloudfront.net/latest/gzip/CloudFormationResourceSpecification.json": [
+            "*.cf.yaml",
+            "*.cf.yml",
+            "cloud-formation/*.yml",
+            "cloudformation/*.yml"
+        ]
+    },
+    // https://github.com/adamvoss/vscode-yaml/issues/16
+    "yaml.customTags": [
+        "!Ref",
+        "!Sub",
+        "!Join sequence",
+        "!FindInMap sequence",
+        "!GetAtt scalar sequence",
+        "!Base64 mapping",
+        "!GetAZs",
+        "!Select sequence",
+        "!Split sequence",
+        "!ImportValue",
+        "!Condition",
+        "!Equals sequence",
+        "!And",
+        "!If",
+        "!Not",
+        "!Or"
+    ],
+
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vsicons.projectDetection.autoReload": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveshare.increasedGuestLimit": true,
+    "githubPullRequests.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+
+    // 大きく見せるとき用の設定
+    // "terminal.integrated.fontSize": 20,
+    // "editor.fontSize": 18,
+ 
+}

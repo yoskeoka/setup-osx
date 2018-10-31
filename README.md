@@ -119,6 +119,10 @@ git config --global user.email y.okamoto@gemcook.com
 
 `Shell Command: Install 'code' command in PATH`
 
+設定をjson編集モードで開き、 `vscode-settings.json` の内容を貼り付ける。
+
+`install-vscode-extentions.sh` を実行して拡張をまとめてインストール。
+
 ## command line tools
 
 ```sh
