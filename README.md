@@ -13,17 +13,20 @@ App Store から XCodeを入手する。
 
 macOSをバージョンアップした場合、
 XCode Command Line Tools の再インストールが必要となるので、以下でインストールする。
+(Catalinaからはインストール失敗して、Macのソフトウェア・アップデートからインストールすることになる？）
 
 ```sh
 xcode-select --install
 ```
+
+
 
 ## パッケージマネージャ
 
 ### brew
 
 ```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 ### gofish
