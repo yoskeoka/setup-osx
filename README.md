@@ -148,7 +148,7 @@ gofish install helm
 ## GUI tools
 
 ```sh
-brew cask install copyq
+brew cask install maccy
 ```
 
 ## mac setting
