@@ -57,11 +57,15 @@ mkdir ~/src ~/bin
 
 ### source-han-code-jp
 
+直接インストール
+
 ```sh
 curl -L https://github.com/adobe-fonts/source-han-code-jp/archive/2.000R.tar.gz | tar zx
 mv source-han-code-jp-2.000R/OTC/SourceHanCodeJP.ttc ~/library/fonts
 rm -r source-han-code-jp-2.000R
 ```
+
+brewでインストール
 
 ```sh
 brew tap homebrew/cask-fonts
@@ -129,9 +133,8 @@ brew install jid jo jq colordiff ghq coreutils
 git config --global ghq.root '~/src'
 ```
 
-```sh
-pip install awscli --user
-```
+aws-cli v2
+https://docs.aws.amazon.com/en_us/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-gui
 
 ## Docker & Kubernetes
 
