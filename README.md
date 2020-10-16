@@ -29,16 +29,6 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-### gofish
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
-```
-
-```sh
-gofish init
-```
-
 ## python
 
 ```sh
@@ -71,6 +61,11 @@ mkdir ~/src ~/bin
 curl -L https://github.com/adobe-fonts/source-han-code-jp/archive/2.000R.tar.gz | tar zx
 mv source-han-code-jp-2.000R/OTC/SourceHanCodeJP.ttc ~/library/fonts
 rm -r source-han-code-jp-2.000R
+```
+
+```sh
+brew tap homebrew/cask-fonts
+brew cask install font-source-han-code-jp
 ```
 
 ### powerline
